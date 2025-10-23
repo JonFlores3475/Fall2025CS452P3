@@ -31,7 +31,7 @@ if [ -e $MYAPP ]; then
     fi
     echo "Running myprogram to generate data"
     echo "#Time Threads" >> data.dat
-    for n in {1..32}; do
+    for n in {1..64}; do
         echo -ne "running $n thread \r"
         $MYAPP "$size" "$n" >> data.dat
     done

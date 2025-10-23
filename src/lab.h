@@ -9,8 +9,8 @@ extern "C"
 
   // The threshold that we will use to switch to insertion sort, make sure that
   // you use test arrays bigger than 5 so you are testing the merge sort
-#define INSERTION_SORT_THRESHOLD 2
-#define MAX_THREADS 32
+#define INSERTION_SORT_THRESHOLD 5
+#define MAX_THREADS 64
   /**
    * @brief Sorts an array of ints into ascending order using the constant
    * INSERTION_SORT_THRESHOLD internally

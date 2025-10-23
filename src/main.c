@@ -14,6 +14,7 @@
  * @return int Exit status
  * AI use: AI Assisted
  */
+
 int main(int argc, char **argv) {
     if (argc < 3) {
         printf("usage: %s <array_size> <num_threads>\n", argv[0]);
@@ -23,6 +24,7 @@ int main(int argc, char **argv) {
     int array_size = atoi(argv[1]);
     int num_threads = atoi(argv[2]);
     if (num_threads < 1) num_threads = 1;  // enforce minimum
+    if (num_threads > MAX_THREADS) num_threads = MAX_THREADS; // enforce maximum
 
     // Allocate and initialize array
     int *A = malloc(sizeof(int) * (size_t)array_size);
