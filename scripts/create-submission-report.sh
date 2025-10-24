@@ -89,6 +89,8 @@ gcovr -r . \
   -o ./build/report/html/coverage_report.html 2>&1
 \`\`\`
 
+**Open the detailed HTML coverage report [here](./build/report/html/coverage_report.html)**
+
 ---
 
 ## Address Sanitizer Report
