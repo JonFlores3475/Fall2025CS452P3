@@ -91,6 +91,8 @@ void mergesort_s(int A[], int p, int r)
   }
 }
 
+
+// GCOVR_EXCL_START
 void merge_s(int A[], int p, int q, int r)
 {
   int *B = (int *)malloc(sizeof(int) * (size_t)(r - p + 1));
@@ -147,6 +149,8 @@ void merge_s(int A[], int p, int q, int r)
 
   free(B);
 }
+
+// GCOVR_EXCL_STOP
 
 /**
  * @brief Computes the sizes for each split given the total size and number of threads
