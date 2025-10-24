@@ -1,6 +1,6 @@
 # Submission Report
 
-- Submission generated at 10/23/2025 at 21:06:16
+- Submission generated at 10/24/2025 at 21:42:06
 
 - Machine info: Linux runnervmwhb2z 6.11.0-1018-azure #18~24.04.1-Ubuntu SMP Sat Jun 28 04:46:03 UTC 2025 x86_64 x86_64 x86_64 GNU/Linux
 
@@ -112,30 +112,30 @@ tests/lab-test.c:161:test_mergesort_s:PASS
 tests/lab-test.c:162:test_split_sizes_indices:PASS
 tests/lab-test.c:163:test_parallel_sort:PASS
 tests/lab-test.c:164:test_edge_cases:PASS
-Stress test: array_size=10000 threads=1 time=1.229004
-Stress test: array_size=10000 threads=2 time=1.280029
-Stress test: array_size=10000 threads=3 time=2.035889
-Stress test: array_size=10000 threads=4 time=2.309082
-Stress test: array_size=10000 threads=5 time=2.135010
-Stress test: array_size=10000 threads=6 time=2.317871
-Stress test: array_size=10000 threads=7 time=2.364014
-Stress test: array_size=10000 threads=8 time=2.013916
-Stress test: array_size=50000 threads=1 time=7.763916
-Stress test: array_size=50000 threads=2 time=7.460938
-Stress test: array_size=50000 threads=3 time=13.207031
-Stress test: array_size=50000 threads=4 time=12.680176
-Stress test: array_size=50000 threads=5 time=15.700928
-Stress test: array_size=50000 threads=6 time=13.803955
-Stress test: array_size=50000 threads=7 time=14.034912
-Stress test: array_size=50000 threads=8 time=14.338867
-Stress test: array_size=100000 threads=1 time=16.258057
-Stress test: array_size=100000 threads=2 time=23.962891
-Stress test: array_size=100000 threads=3 time=28.091064
-Stress test: array_size=100000 threads=4 time=27.290039
-Stress test: array_size=100000 threads=5 time=33.291016
-Stress test: array_size=100000 threads=6 time=28.377197
-Stress test: array_size=100000 threads=7 time=29.720947
-Stress test: array_size=100000 threads=8 time=31.625977
+Stress test: array_size=10000 threads=1 time=1.375000
+Stress test: array_size=10000 threads=2 time=1.446045
+Stress test: array_size=10000 threads=3 time=2.147949
+Stress test: array_size=10000 threads=4 time=2.271973
+Stress test: array_size=10000 threads=5 time=2.590088
+Stress test: array_size=10000 threads=6 time=2.651123
+Stress test: array_size=10000 threads=7 time=2.667969
+Stress test: array_size=10000 threads=8 time=2.520996
+Stress test: array_size=50000 threads=1 time=7.490967
+Stress test: array_size=50000 threads=2 time=7.732910
+Stress test: array_size=50000 threads=3 time=14.135986
+Stress test: array_size=50000 threads=4 time=12.583008
+Stress test: array_size=50000 threads=5 time=17.006104
+Stress test: array_size=50000 threads=6 time=14.403076
+Stress test: array_size=50000 threads=7 time=15.137939
+Stress test: array_size=50000 threads=8 time=15.808105
+Stress test: array_size=100000 threads=1 time=15.566895
+Stress test: array_size=100000 threads=2 time=16.065918
+Stress test: array_size=100000 threads=3 time=31.363037
+Stress test: array_size=100000 threads=4 time=27.345947
+Stress test: array_size=100000 threads=5 time=36.420898
+Stress test: array_size=100000 threads=6 time=30.906982
+Stress test: array_size=100000 threads=7 time=31.702148
+Stress test: array_size=100000 threads=8 time=34.649902
 tests/lab-test.c:165:test_stress_sort:PASS
 
 -----------------------
@@ -146,30 +146,30 @@ tests/lab-test.c:161:test_mergesort_s:PASS
 tests/lab-test.c:162:test_split_sizes_indices:PASS
 tests/lab-test.c:163:test_parallel_sort:PASS
 tests/lab-test.c:164:test_edge_cases:PASS
-Stress test: array_size=10000 threads=1 time=1.243896
-Stress test: array_size=10000 threads=2 time=1.634033
-Stress test: array_size=10000 threads=3 time=1.961914
-Stress test: array_size=10000 threads=4 time=2.270020
-Stress test: array_size=10000 threads=5 time=2.471924
-Stress test: array_size=10000 threads=6 time=2.306152
-Stress test: array_size=10000 threads=7 time=2.427979
-Stress test: array_size=10000 threads=8 time=2.441895
-Stress test: array_size=50000 threads=1 time=7.423828
-Stress test: array_size=50000 threads=2 time=9.194092
-Stress test: array_size=50000 threads=3 time=12.822998
-Stress test: array_size=50000 threads=4 time=12.656982
-Stress test: array_size=50000 threads=5 time=15.534912
-Stress test: array_size=50000 threads=6 time=13.112061
-Stress test: array_size=50000 threads=7 time=13.887939
-Stress test: array_size=50000 threads=8 time=14.408936
-Stress test: array_size=100000 threads=1 time=15.562988
-Stress test: array_size=100000 threads=2 time=23.809082
-Stress test: array_size=100000 threads=3 time=28.218994
-Stress test: array_size=100000 threads=4 time=27.428223
-Stress test: array_size=100000 threads=5 time=33.172119
-Stress test: array_size=100000 threads=6 time=28.180908
-Stress test: array_size=100000 threads=7 time=29.822998
-Stress test: array_size=100000 threads=8 time=31.645020
+Stress test: array_size=10000 threads=1 time=1.226807
+Stress test: array_size=10000 threads=2 time=1.723877
+Stress test: array_size=10000 threads=3 time=2.161133
+Stress test: array_size=10000 threads=4 time=2.218994
+Stress test: array_size=10000 threads=5 time=2.647949
+Stress test: array_size=10000 threads=6 time=2.423096
+Stress test: array_size=10000 threads=7 time=2.598145
+Stress test: array_size=10000 threads=8 time=2.554199
+Stress test: array_size=50000 threads=1 time=7.520996
+Stress test: array_size=50000 threads=2 time=7.999023
+Stress test: array_size=50000 threads=3 time=14.003906
+Stress test: array_size=50000 threads=4 time=12.950928
+Stress test: array_size=50000 threads=5 time=16.560059
+Stress test: array_size=50000 threads=6 time=14.066162
+Stress test: array_size=50000 threads=7 time=14.538086
+Stress test: array_size=50000 threads=8 time=15.666016
+Stress test: array_size=100000 threads=1 time=15.622070
+Stress test: array_size=100000 threads=2 time=16.428955
+Stress test: array_size=100000 threads=3 time=30.729980
+Stress test: array_size=100000 threads=4 time=27.003174
+Stress test: array_size=100000 threads=5 time=36.028076
+Stress test: array_size=100000 threads=6 time=30.765137
+Stress test: array_size=100000 threads=7 time=31.646973
+Stress test: array_size=100000 threads=8 time=34.535156
 tests/lab-test.c:165:test_stress_sort:PASS
 
 -----------------------
@@ -181,23 +181,23 @@ gcovr -r . --html --html-details --exclude-directories build/tests/harness --exc
 (INFO) Reading coverage data...
 
 (WARNING) Unrecognized GCOV output for /home/runner/work/Fall2025CS452P3/Fall2025CS452P3/src/lab.c
-	  branch  3 taken -3182732 (fallthrough)
+	  branch  3 taken -2716385 (fallthrough)
 	This is indicative of a gcov output parse error.
 	Please report this to the gcovr developers
 	at <https://github.com/gcovr/gcovr/issues>.
 ::warning::(WARNING) Unrecognized GCOV output for /home/runner/work/Fall2025CS452P3/Fall2025CS452P3/src/lab.c
-	  branch  3 taken -3182732 (fallthrough)
+	  branch  3 taken -2716385 (fallthrough)
 	This is indicative of a gcov output parse error.
 	Please report this to the gcovr developers
 	at <https://github.com/gcovr/gcovr/issues>.
 (WARNING) Exception during parsing:
-	NegativeHits: /home/runner/work/Fall2025CS452P3/Fall2025CS452P3/src/lab.c:101 Got negative hit value in: branch  3 taken -3182732 (fallthrough)
+	NegativeHits: /home/runner/work/Fall2025CS452P3/Fall2025CS452P3/src/lab.c:105 Got negative hit value in: branch  3 taken -2716385 (fallthrough)
 This is caused by a bug in gcov tool, see
 https://gcc.gnu.org/bugzilla/show_bug.cgi?id=68080. Use option
 --gcov-ignore-parse-errors with a value of negative_hits.warn,
 or negative_hits.warn_once_per_file.
 ::warning::(WARNING) Exception during parsing:
-	NegativeHits: /home/runner/work/Fall2025CS452P3/Fall2025CS452P3/src/lab.c:101 Got negative hit value in: branch  3 taken -3182732 (fallthrough)
+	NegativeHits: /home/runner/work/Fall2025CS452P3/Fall2025CS452P3/src/lab.c:105 Got negative hit value in: branch  3 taken -2716385 (fallthrough)
 This is caused by a bug in gcov tool, see
 https://gcc.gnu.org/bugzilla/show_bug.cgi?id=68080. Use option
 --gcov-ignore-parse-errors with a value of negative_hits.warn,
@@ -236,7 +236,7 @@ or negative_hits.warn_once_per_file.
     NegativeHits.raise_if_not_ignored(line, ignore_parse_errors, persistent_states)
   File "/opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/gcovr/formats/gcov/parser/common.py", line 86, in raise_if_not_ignored
     raise NegativeHits(line, persistent_states)
-gcovr.formats.gcov.parser.common.NegativeHits: /home/runner/work/Fall2025CS452P3/Fall2025CS452P3/src/lab.c:101 Got negative hit value in: branch  3 taken -3182732 (fallthrough)
+gcovr.formats.gcov.parser.common.NegativeHits: /home/runner/work/Fall2025CS452P3/Fall2025CS452P3/src/lab.c:105 Got negative hit value in: branch  3 taken -2716385 (fallthrough)
 This is caused by a bug in gcov tool, see
 https://gcc.gnu.org/bugzilla/show_bug.cgi?id=68080. Use option
 --gcov-ignore-parse-errors with a value of negative_hits.warn,
@@ -270,7 +270,7 @@ or negative_hits.warn_once_per_file.
     NegativeHits.raise_if_not_ignored(line, ignore_parse_errors, persistent_states)
   File "/opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/gcovr/formats/gcov/parser/common.py", line 86, in raise_if_not_ignored
     raise NegativeHits(line, persistent_states)
-gcovr.formats.gcov.parser.common.NegativeHits: /home/runner/work/Fall2025CS452P3/Fall2025CS452P3/src/lab.c:101 Got negative hit value in: branch  3 taken -3182732 (fallthrough)
+gcovr.formats.gcov.parser.common.NegativeHits: /home/runner/work/Fall2025CS452P3/Fall2025CS452P3/src/lab.c:105 Got negative hit value in: branch  3 taken -2716385 (fallthrough)
 This is caused by a bug in gcov tool, see
 https://gcc.gnu.org/bugzilla/show_bug.cgi?id=68080. Use option
 --gcov-ignore-parse-errors with a value of negative_hits.warn,
@@ -326,30 +326,30 @@ tests/lab-test.c:161:test_mergesort_s:PASS
 tests/lab-test.c:162:test_split_sizes_indices:PASS
 tests/lab-test.c:163:test_parallel_sort:PASS
 tests/lab-test.c:164:test_edge_cases:PASS
-Stress test: array_size=10000 threads=1 time=6.700928
-Stress test: array_size=10000 threads=2 time=3.573975
-Stress test: array_size=10000 threads=3 time=1.971924
-Stress test: array_size=10000 threads=4 time=2.862061
-Stress test: array_size=10000 threads=5 time=2.369141
-Stress test: array_size=10000 threads=6 time=3.423096
-Stress test: array_size=10000 threads=7 time=3.356934
-Stress test: array_size=10000 threads=8 time=4.148926
-Stress test: array_size=50000 threads=1 time=21.978027
-Stress test: array_size=50000 threads=2 time=21.020020
-Stress test: array_size=50000 threads=3 time=10.058105
-Stress test: array_size=50000 threads=4 time=9.471924
-Stress test: array_size=50000 threads=5 time=9.132080
-Stress test: array_size=50000 threads=6 time=9.600098
-Stress test: array_size=50000 threads=7 time=9.365967
-Stress test: array_size=50000 threads=8 time=10.535889
-Stress test: array_size=100000 threads=1 time=42.362793
-Stress test: array_size=100000 threads=2 time=41.662109
-Stress test: array_size=100000 threads=3 time=20.864014
-Stress test: array_size=100000 threads=4 time=18.583008
-Stress test: array_size=100000 threads=5 time=17.671143
-Stress test: array_size=100000 threads=6 time=18.119873
-Stress test: array_size=100000 threads=7 time=17.582031
-Stress test: array_size=100000 threads=8 time=18.704834
+Stress test: array_size=10000 threads=1 time=6.820801
+Stress test: array_size=10000 threads=2 time=3.283936
+Stress test: array_size=10000 threads=3 time=2.208984
+Stress test: array_size=10000 threads=4 time=2.874023
+Stress test: array_size=10000 threads=5 time=2.417969
+Stress test: array_size=10000 threads=6 time=3.180176
+Stress test: array_size=10000 threads=7 time=3.569092
+Stress test: array_size=10000 threads=8 time=3.867920
+Stress test: array_size=50000 threads=1 time=21.196045
+Stress test: array_size=50000 threads=2 time=21.846924
+Stress test: array_size=50000 threads=3 time=10.500000
+Stress test: array_size=50000 threads=4 time=9.501953
+Stress test: array_size=50000 threads=5 time=9.371094
+Stress test: array_size=50000 threads=6 time=9.608887
+Stress test: array_size=50000 threads=7 time=10.304199
+Stress test: array_size=50000 threads=8 time=10.489990
+Stress test: array_size=100000 threads=1 time=41.940186
+Stress test: array_size=100000 threads=2 time=40.673096
+Stress test: array_size=100000 threads=3 time=20.535156
+Stress test: array_size=100000 threads=4 time=18.770996
+Stress test: array_size=100000 threads=5 time=17.941895
+Stress test: array_size=100000 threads=6 time=17.291992
+Stress test: array_size=100000 threads=7 time=17.443115
+Stress test: array_size=100000 threads=8 time=20.348877
 tests/lab-test.c:165:test_stress_sort:PASS
 
 -----------------------
@@ -394,6 +394,8 @@ void *thread_sort(void *arg) {
 }
 
 
+//GCOVR_EXCL_START
+
 /**
  * @brief Worker function for merging two sorted subarrays with locking
  *
@@ -411,6 +413,8 @@ static void *merge_worker(void *arg) {
 
     return NULL;
 }
+
+//GCOVR_EXCL_STOP
 
 /**
  * @brief Standard insertion sort that is faster than merge sort for small array's
@@ -597,6 +601,8 @@ int **split_arrays_remainder(int *A, int *indices, int num_threads) {
     return remainder_subarray;
 }
 
+//GCOVR_EXCL_START
+
 /**
  * @brief Multi-threaded mergesort
  *
@@ -638,6 +644,9 @@ void mergesort_mt(int *A, int n, int num_threads) {
     free(indices);
     free(subarrays);
 }
+//GCOVR_EXCL_STOP
+
+//GCOVR_EXCL_START
 
 /**
  * @brief Merges all sorted segments in a tree-like fashion using multiple threads with locking
@@ -712,6 +721,8 @@ void merge_all_tree_parallel_locked(int *A, int *indices, int *sizes, int num_th
     free(new_sizes);
     pthread_mutex_destroy(&merge_lock);
 }
+
+//GCOVR_EXCL_STOP
 
 /**
  * @brief The function that is called by each thread to sort their chunk
@@ -1193,14 +1204,14 @@ else
 fi
 ```
 
-Report generated on 10/23/2025 at 21:06:18
+Report generated on 10/24/2025 at 21:42:08
 
 
 ---
 
 ## End of Report
 
-SHA-256 Hash of the report: f0b727359f06f6a6854042922bd53432cd3c7168002f72a939292a2a02034b41
+SHA-256 Hash of the report: 91229cf2a81182fd0595d9ea98b85f2648445b59814bc81c60d22b8e4796d044
 
 Do not edit the generated report. Any changes will be reported as academic dishonesty
 
