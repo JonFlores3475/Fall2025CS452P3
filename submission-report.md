@@ -1,6 +1,6 @@
 # Submission Report
 
-- Submission generated at 10/24/2025 at 21:42:06
+- Submission generated at 10/24/2025 at 21:50:26
 
 - Machine info: Linux runnervmwhb2z 6.11.0-1018-azure #18~24.04.1-Ubuntu SMP Sat Jun 28 04:46:03 UTC 2025 x86_64 x86_64 x86_64 GNU/Linux
 
@@ -112,30 +112,30 @@ tests/lab-test.c:161:test_mergesort_s:PASS
 tests/lab-test.c:162:test_split_sizes_indices:PASS
 tests/lab-test.c:163:test_parallel_sort:PASS
 tests/lab-test.c:164:test_edge_cases:PASS
-Stress test: array_size=10000 threads=1 time=1.375000
-Stress test: array_size=10000 threads=2 time=1.446045
-Stress test: array_size=10000 threads=3 time=2.147949
-Stress test: array_size=10000 threads=4 time=2.271973
-Stress test: array_size=10000 threads=5 time=2.590088
-Stress test: array_size=10000 threads=6 time=2.651123
-Stress test: array_size=10000 threads=7 time=2.667969
-Stress test: array_size=10000 threads=8 time=2.520996
-Stress test: array_size=50000 threads=1 time=7.490967
-Stress test: array_size=50000 threads=2 time=7.732910
-Stress test: array_size=50000 threads=3 time=14.135986
-Stress test: array_size=50000 threads=4 time=12.583008
-Stress test: array_size=50000 threads=5 time=17.006104
-Stress test: array_size=50000 threads=6 time=14.403076
-Stress test: array_size=50000 threads=7 time=15.137939
-Stress test: array_size=50000 threads=8 time=15.808105
-Stress test: array_size=100000 threads=1 time=15.566895
-Stress test: array_size=100000 threads=2 time=16.065918
-Stress test: array_size=100000 threads=3 time=31.363037
-Stress test: array_size=100000 threads=4 time=27.345947
-Stress test: array_size=100000 threads=5 time=36.420898
-Stress test: array_size=100000 threads=6 time=30.906982
-Stress test: array_size=100000 threads=7 time=31.702148
-Stress test: array_size=100000 threads=8 time=34.649902
+Stress test: array_size=10000 threads=1 time=1.365967
+Stress test: array_size=10000 threads=2 time=1.383057
+Stress test: array_size=10000 threads=3 time=1.180176
+Stress test: array_size=10000 threads=4 time=1.820068
+Stress test: array_size=10000 threads=5 time=2.454102
+Stress test: array_size=10000 threads=6 time=2.308105
+Stress test: array_size=10000 threads=7 time=2.208984
+Stress test: array_size=10000 threads=8 time=2.518066
+Stress test: array_size=50000 threads=1 time=8.185059
+Stress test: array_size=50000 threads=2 time=8.675049
+Stress test: array_size=50000 threads=3 time=7.094971
+Stress test: array_size=50000 threads=4 time=10.204102
+Stress test: array_size=50000 threads=5 time=15.877930
+Stress test: array_size=50000 threads=6 time=13.998779
+Stress test: array_size=50000 threads=7 time=13.090820
+Stress test: array_size=50000 threads=8 time=14.614990
+Stress test: array_size=100000 threads=1 time=17.217041
+Stress test: array_size=100000 threads=2 time=17.596924
+Stress test: array_size=100000 threads=3 time=15.293945
+Stress test: array_size=100000 threads=4 time=26.408936
+Stress test: array_size=100000 threads=5 time=34.375977
+Stress test: array_size=100000 threads=6 time=30.179932
+Stress test: array_size=100000 threads=7 time=29.080078
+Stress test: array_size=100000 threads=8 time=31.809814
 tests/lab-test.c:165:test_stress_sort:PASS
 
 -----------------------
@@ -146,30 +146,30 @@ tests/lab-test.c:161:test_mergesort_s:PASS
 tests/lab-test.c:162:test_split_sizes_indices:PASS
 tests/lab-test.c:163:test_parallel_sort:PASS
 tests/lab-test.c:164:test_edge_cases:PASS
-Stress test: array_size=10000 threads=1 time=1.226807
-Stress test: array_size=10000 threads=2 time=1.723877
-Stress test: array_size=10000 threads=3 time=2.161133
-Stress test: array_size=10000 threads=4 time=2.218994
-Stress test: array_size=10000 threads=5 time=2.647949
-Stress test: array_size=10000 threads=6 time=2.423096
-Stress test: array_size=10000 threads=7 time=2.598145
-Stress test: array_size=10000 threads=8 time=2.554199
-Stress test: array_size=50000 threads=1 time=7.520996
-Stress test: array_size=50000 threads=2 time=7.999023
-Stress test: array_size=50000 threads=3 time=14.003906
-Stress test: array_size=50000 threads=4 time=12.950928
-Stress test: array_size=50000 threads=5 time=16.560059
-Stress test: array_size=50000 threads=6 time=14.066162
-Stress test: array_size=50000 threads=7 time=14.538086
-Stress test: array_size=50000 threads=8 time=15.666016
-Stress test: array_size=100000 threads=1 time=15.622070
-Stress test: array_size=100000 threads=2 time=16.428955
-Stress test: array_size=100000 threads=3 time=30.729980
-Stress test: array_size=100000 threads=4 time=27.003174
-Stress test: array_size=100000 threads=5 time=36.028076
-Stress test: array_size=100000 threads=6 time=30.765137
-Stress test: array_size=100000 threads=7 time=31.646973
-Stress test: array_size=100000 threads=8 time=34.535156
+Stress test: array_size=10000 threads=1 time=1.336914
+Stress test: array_size=10000 threads=2 time=1.366943
+Stress test: array_size=10000 threads=3 time=1.187012
+Stress test: array_size=10000 threads=4 time=1.854980
+Stress test: array_size=10000 threads=5 time=2.438965
+Stress test: array_size=10000 threads=6 time=2.356934
+Stress test: array_size=10000 threads=7 time=2.255859
+Stress test: array_size=10000 threads=8 time=2.211914
+Stress test: array_size=50000 threads=1 time=8.192871
+Stress test: array_size=50000 threads=2 time=8.187012
+Stress test: array_size=50000 threads=3 time=7.614014
+Stress test: array_size=50000 threads=4 time=10.224854
+Stress test: array_size=50000 threads=5 time=16.390137
+Stress test: array_size=50000 threads=6 time=14.043945
+Stress test: array_size=50000 threads=7 time=13.427979
+Stress test: array_size=50000 threads=8 time=14.860107
+Stress test: array_size=100000 threads=1 time=17.223877
+Stress test: array_size=100000 threads=2 time=18.028076
+Stress test: array_size=100000 threads=3 time=15.424805
+Stress test: array_size=100000 threads=4 time=22.200928
+Stress test: array_size=100000 threads=5 time=35.408203
+Stress test: array_size=100000 threads=6 time=30.663086
+Stress test: array_size=100000 threads=7 time=28.737061
+Stress test: array_size=100000 threads=8 time=32.318115
 tests/lab-test.c:165:test_stress_sort:PASS
 
 -----------------------
@@ -181,23 +181,23 @@ gcovr -r . --html --html-details --exclude-directories build/tests/harness --exc
 (INFO) Reading coverage data...
 
 (WARNING) Unrecognized GCOV output for /home/runner/work/Fall2025CS452P3/Fall2025CS452P3/src/lab.c
-	  branch  3 taken -2716385 (fallthrough)
+	  branch  3 taken -2799158 (fallthrough)
 	This is indicative of a gcov output parse error.
 	Please report this to the gcovr developers
 	at <https://github.com/gcovr/gcovr/issues>.
 ::warning::(WARNING) Unrecognized GCOV output for /home/runner/work/Fall2025CS452P3/Fall2025CS452P3/src/lab.c
-	  branch  3 taken -2716385 (fallthrough)
+	  branch  3 taken -2799158 (fallthrough)
 	This is indicative of a gcov output parse error.
 	Please report this to the gcovr developers
 	at <https://github.com/gcovr/gcovr/issues>.
 (WARNING) Exception during parsing:
-	NegativeHits: /home/runner/work/Fall2025CS452P3/Fall2025CS452P3/src/lab.c:105 Got negative hit value in: branch  3 taken -2716385 (fallthrough)
+	NegativeHits: /home/runner/work/Fall2025CS452P3/Fall2025CS452P3/src/lab.c:105 Got negative hit value in: branch  3 taken -2799158 (fallthrough)
 This is caused by a bug in gcov tool, see
 https://gcc.gnu.org/bugzilla/show_bug.cgi?id=68080. Use option
 --gcov-ignore-parse-errors with a value of negative_hits.warn,
 or negative_hits.warn_once_per_file.
 ::warning::(WARNING) Exception during parsing:
-	NegativeHits: /home/runner/work/Fall2025CS452P3/Fall2025CS452P3/src/lab.c:105 Got negative hit value in: branch  3 taken -2716385 (fallthrough)
+	NegativeHits: /home/runner/work/Fall2025CS452P3/Fall2025CS452P3/src/lab.c:105 Got negative hit value in: branch  3 taken -2799158 (fallthrough)
 This is caused by a bug in gcov tool, see
 https://gcc.gnu.org/bugzilla/show_bug.cgi?id=68080. Use option
 --gcov-ignore-parse-errors with a value of negative_hits.warn,
@@ -236,7 +236,7 @@ or negative_hits.warn_once_per_file.
     NegativeHits.raise_if_not_ignored(line, ignore_parse_errors, persistent_states)
   File "/opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/gcovr/formats/gcov/parser/common.py", line 86, in raise_if_not_ignored
     raise NegativeHits(line, persistent_states)
-gcovr.formats.gcov.parser.common.NegativeHits: /home/runner/work/Fall2025CS452P3/Fall2025CS452P3/src/lab.c:105 Got negative hit value in: branch  3 taken -2716385 (fallthrough)
+gcovr.formats.gcov.parser.common.NegativeHits: /home/runner/work/Fall2025CS452P3/Fall2025CS452P3/src/lab.c:105 Got negative hit value in: branch  3 taken -2799158 (fallthrough)
 This is caused by a bug in gcov tool, see
 https://gcc.gnu.org/bugzilla/show_bug.cgi?id=68080. Use option
 --gcov-ignore-parse-errors with a value of negative_hits.warn,
@@ -270,7 +270,7 @@ or negative_hits.warn_once_per_file.
     NegativeHits.raise_if_not_ignored(line, ignore_parse_errors, persistent_states)
   File "/opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/gcovr/formats/gcov/parser/common.py", line 86, in raise_if_not_ignored
     raise NegativeHits(line, persistent_states)
-gcovr.formats.gcov.parser.common.NegativeHits: /home/runner/work/Fall2025CS452P3/Fall2025CS452P3/src/lab.c:105 Got negative hit value in: branch  3 taken -2716385 (fallthrough)
+gcovr.formats.gcov.parser.common.NegativeHits: /home/runner/work/Fall2025CS452P3/Fall2025CS452P3/src/lab.c:105 Got negative hit value in: branch  3 taken -2799158 (fallthrough)
 This is caused by a bug in gcov tool, see
 https://gcc.gnu.org/bugzilla/show_bug.cgi?id=68080. Use option
 --gcov-ignore-parse-errors with a value of negative_hits.warn,
@@ -326,30 +326,30 @@ tests/lab-test.c:161:test_mergesort_s:PASS
 tests/lab-test.c:162:test_split_sizes_indices:PASS
 tests/lab-test.c:163:test_parallel_sort:PASS
 tests/lab-test.c:164:test_edge_cases:PASS
-Stress test: array_size=10000 threads=1 time=6.820801
-Stress test: array_size=10000 threads=2 time=3.283936
-Stress test: array_size=10000 threads=3 time=2.208984
-Stress test: array_size=10000 threads=4 time=2.874023
-Stress test: array_size=10000 threads=5 time=2.417969
-Stress test: array_size=10000 threads=6 time=3.180176
-Stress test: array_size=10000 threads=7 time=3.569092
-Stress test: array_size=10000 threads=8 time=3.867920
-Stress test: array_size=50000 threads=1 time=21.196045
-Stress test: array_size=50000 threads=2 time=21.846924
-Stress test: array_size=50000 threads=3 time=10.500000
-Stress test: array_size=50000 threads=4 time=9.501953
-Stress test: array_size=50000 threads=5 time=9.371094
-Stress test: array_size=50000 threads=6 time=9.608887
-Stress test: array_size=50000 threads=7 time=10.304199
-Stress test: array_size=50000 threads=8 time=10.489990
-Stress test: array_size=100000 threads=1 time=41.940186
-Stress test: array_size=100000 threads=2 time=40.673096
-Stress test: array_size=100000 threads=3 time=20.535156
-Stress test: array_size=100000 threads=4 time=18.770996
-Stress test: array_size=100000 threads=5 time=17.941895
-Stress test: array_size=100000 threads=6 time=17.291992
-Stress test: array_size=100000 threads=7 time=17.443115
-Stress test: array_size=100000 threads=8 time=20.348877
+Stress test: array_size=10000 threads=1 time=6.456055
+Stress test: array_size=10000 threads=2 time=4.286865
+Stress test: array_size=10000 threads=3 time=2.783936
+Stress test: array_size=10000 threads=4 time=2.732910
+Stress test: array_size=10000 threads=5 time=2.264893
+Stress test: array_size=10000 threads=6 time=2.906006
+Stress test: array_size=10000 threads=7 time=2.868164
+Stress test: array_size=10000 threads=8 time=3.896973
+Stress test: array_size=50000 threads=1 time=25.935059
+Stress test: array_size=50000 threads=2 time=24.805176
+Stress test: array_size=50000 threads=3 time=11.620850
+Stress test: array_size=50000 threads=4 time=9.463867
+Stress test: array_size=50000 threads=5 time=9.842041
+Stress test: array_size=50000 threads=6 time=9.683105
+Stress test: array_size=50000 threads=7 time=9.855957
+Stress test: array_size=50000 threads=8 time=10.884033
+Stress test: array_size=100000 threads=1 time=47.974854
+Stress test: array_size=100000 threads=2 time=46.905029
+Stress test: array_size=100000 threads=3 time=31.352051
+Stress test: array_size=100000 threads=4 time=21.071045
+Stress test: array_size=100000 threads=5 time=19.963867
+Stress test: array_size=100000 threads=6 time=18.230957
+Stress test: array_size=100000 threads=7 time=19.113037
+Stress test: array_size=100000 threads=8 time=20.731934
 tests/lab-test.c:165:test_stress_sort:PASS
 
 -----------------------
@@ -372,12 +372,13 @@ OK
 /*
  * AI use: AI Assisted
  */
-typedef struct {
-    int *A;
-    int start;
-    int mid;
-    int end;
-    pthread_mutex_t *merge_lock; // pointer to global lock
+typedef struct
+{
+  int *A;
+  int start;
+  int mid;
+  int end;
+  pthread_mutex_t *merge_lock; // pointer to global lock
 } merge_task_t;
 
 /*
@@ -387,14 +388,14 @@ typedef struct {
  * @return NULL
  * AI use: AI Assisted
  */
-void *thread_sort(void *arg) {
-    parallel_args_t *p = (parallel_args_t *)arg;
-    mergesort_s(p->A, p->start, p->end);
-    return NULL;
+void *thread_sort(void *arg)
+{
+  parallel_args_t *p = (parallel_args_t *)arg;
+  mergesort_s(p->A, p->start, p->end);
+  return NULL;
 }
 
-
-//GCOVR_EXCL_START
+// GCOVR_EXCL_START
 
 /**
  * @brief Worker function for merging two sorted subarrays with locking
@@ -403,18 +404,19 @@ void *thread_sort(void *arg) {
  * @return NULL
  * AI use: AI Assisted
  */
-static void *merge_worker(void *arg) {
-    merge_task_t *task = (merge_task_t *)arg;
+static void *merge_worker(void *arg)
+{
+  merge_task_t *task = (merge_task_t *)arg;
 
-    // Minimal lock: protects merge operation
-    pthread_mutex_lock(task->merge_lock);
-    merge_s(task->A, task->start, task->mid, task->end);
-    pthread_mutex_unlock(task->merge_lock);
+  // Minimal lock: protects merge operation
+  pthread_mutex_lock(task->merge_lock);
+  merge_s(task->A, task->start, task->mid, task->end);
+  pthread_mutex_unlock(task->merge_lock);
 
-    return NULL;
+  return NULL;
 }
 
-//GCOVR_EXCL_STOP
+// GCOVR_EXCL_STOP
 
 /**
  * @brief Standard insertion sort that is faster than merge sort for small array's
@@ -428,33 +430,31 @@ static void insertion_sort(int A[], int p, int r)
   int j;
 
   for (j = p + 1; j <= r; j++)
+  {
+    int key = A[j];
+    int i = j - 1;
+    while ((i > p - 1) && (A[i] > key))
     {
-      int key = A[j];
-      int i = j - 1;
-      while ((i > p - 1) && (A[i] > key))
-        {
-	  A[i + 1] = A[i];
-	  i--;
-        }
-      A[i + 1] = key;
+      A[i + 1] = A[i];
+      i--;
     }
+    A[i + 1] = key;
+  }
 }
-
 
 void mergesort_s(int A[], int p, int r)
 {
-  if (r - p + 1 <=  INSERTION_SORT_THRESHOLD)
-    {
-      insertion_sort(A, p, r);
-    }
+  if (r - p + 1 <= INSERTION_SORT_THRESHOLD)
+  {
+    insertion_sort(A, p, r);
+  }
   else
-    {
-      int q = (p + r) / 2;
-      mergesort_s(A, p, q);
-      mergesort_s(A, q + 1, r);
-      merge_s(A, p, q, r);
-    }
-
+  {
+    int q = (p + r) / 2;
+    mergesort_s(A, p, q);
+    mergesort_s(A, q + 1, r);
+    merge_s(A, p, q, r);
+  }
 }
 
 void merge_s(int A[], int p, int q, int r)
@@ -469,139 +469,148 @@ void merge_s(int A[], int p, int q, int r)
   /* as long as both lists have unexamined elements */
   /*  this loop keeps executing. */
   while ((i <= q) && (j <= r))
+  {
+    if (A[i] < A[j])
     {
-      if (A[i] < A[j])
-        {
-	  B[k] = A[i];
-	  i++;
-        }
-      else
-        {
-	  B[k] = A[j];
-	  j++;
-        }
-      k++;
+      B[k] = A[i];
+      i++;
     }
+    else
+    {
+      B[k] = A[j];
+      j++;
+    }
+    k++;
+  }
 
   /* now only at most one list has unprocessed elements. */
   if (i <= q)
+  {
+    /* copy remaining elements from the first list */
+    for (l = i; l <= q; l++)
     {
-      /* copy remaining elements from the first list */
-      for (l = i; l <= q; l++)
-        {
-	  B[k] = A[l];
-	  k++;
-        }
+      B[k] = A[l];
+      k++;
     }
+  }
   else
+  {
+    /* copy remaining elements from the second list */
+    for (l = j; l <= r; l++)
     {
-      /* copy remaining elements from the second list */
-      for (l = j; l <= r; l++)
-        {
-	  B[k] = A[l];
-	  k++;
-        }
+      B[k] = A[l];
+      k++;
     }
+  }
 
   /* copy merged output from array B back to array A */
   k = 0;
   for (l = p; l <= r; l++)
-    {
-      A[l] = B[k];
-      k++;
-    }
+  {
+    A[l] = B[k];
+    k++;
+  }
 
   free(B);
 }
 
-
 /**
-   * @brief Computes the sizes for each split given the total size and number of threads
-   *
-   * @param A The array to split
-   * @param n The size of the array
-   * @param num_threads The number of threads
-   * @return int* An array of sizes for each split
-   * AI use: AI Assisted
-   */
-int *split_sizes(int n, int num_threads) {
-    int working_threads = (num_threads <= 1) ? 1 : num_threads - 1;
+ * @brief Computes the sizes for each split given the total size and number of threads
+ *
+ * @param A The array to split
+ * @param n The size of the array
+ * @param num_threads The number of threads
+ * @return int* An array of sizes for each split
+ * AI use: AI Assisted
+ */
+int *split_sizes(int n, int num_threads)
+{
+  int working_threads = (num_threads <= 1) ? 1 : num_threads - 1;
 
-    int *sizes = malloc(sizeof(int) * (size_t)working_threads);
-    if (working_threads == 1) {
-        sizes[0] = n;  // single-thread mode
-        return sizes;
-    }
-
-    int chunk_remainder = n % working_threads;
-    int avg_chunk_size = n / working_threads;
-
-    for (int i = 0; i < working_threads; i++) {
-        sizes[i] = (i == working_threads - 1) ? avg_chunk_size + chunk_remainder : avg_chunk_size;
-    }
+  int *sizes = malloc(sizeof(int) * (size_t)working_threads);
+  if (working_threads == 1)
+  {
+    sizes[0] = n; // single-thread mode
     return sizes;
+  }
+
+  int chunk_remainder = n % working_threads;
+  int avg_chunk_size = n / working_threads;
+
+  for (int i = 0; i < working_threads; i++)
+  {
+    sizes[i] = (i == working_threads - 1) ? avg_chunk_size + chunk_remainder : avg_chunk_size;
+  }
+  return sizes;
 }
 
 /**
-     * @brief Computes the starting indices for each split given the sizes
-     *
-     * @param sizes The sizes of each split
-     * @param num_threads The number of threads
-     * @return int* An array of starting indices for each split
-     * AI use: AI Assisted
-     */
-int *split_indices(int *sizes, int num_threads) {
-    int num_splits = (num_threads <= 1) ? 1 : num_threads - 1;
-    int *indices = malloc(sizeof(int) * (size_t)num_splits);
-    indices[0] = 0;
-    for (int i = 1; i < num_splits; i++) {
-        indices[i] = indices[i - 1] + sizes[i - 1];
-    }
-    return indices;
+ * @brief Computes the starting indices for each split given the sizes
+ *
+ * @param sizes The sizes of each split
+ * @param num_threads The number of threads
+ * @return int* An array of starting indices for each split
+ * AI use: AI Assisted
+ */
+int *split_indices(int *sizes, int num_threads)
+{
+  int num_splits = (num_threads <= 1) ? 1 : num_threads - 1;
+  int *indices = malloc(sizeof(int) * (size_t)num_splits);
+  indices[0] = 0;
+  for (int i = 1; i < num_splits; i++)
+  {
+    indices[i] = indices[i - 1] + sizes[i - 1];
+  }
+  return indices;
 }
 
 /**
-  * @brief Splits the array into num_threads parts and fills in par_args
-  *
-  * @param A The array to split
-  * @param indices The starting indices of each split
-  * @param num_threads The number of threads
-  * @return int** An array of pointers to the start of each subarray
-  * AI use: AI Assisted
-  */
-int **split_arrays_even(int *A, int *indices, int num_threads) {
-    int worker_threads = num_threads - 1;
+ * @brief Splits the array into num_threads parts and fills in par_args
+ *
+ * @param A The array to split
+ * @param indices The starting indices of each split
+ * @param num_threads The number of threads
+ * @return int** An array of pointers to the start of each subarray
+ * AI use: AI Assisted
+ */
+int **split_arrays_even(int *A, int *indices, int num_threads)
+{
+  int worker_threads = num_threads - 1;
 
-    int **subarrays = malloc(sizeof(int *) * (size_t)worker_threads);
-    if (!subarrays) return NULL;
+  int **subarrays = malloc(sizeof(int *) * (size_t)worker_threads);
+  if (!subarrays)
+    return NULL;
 
-    for (int i = 0; i < worker_threads; i++) {
-        subarrays[i] = &A[indices[i]];
-    }
+  for (int i = 0; i < worker_threads; i++)
+  {
+    subarrays[i] = &A[indices[i]];
+  }
 
-    return subarrays;
+  return subarrays;
 }
 
 /**
-   * @brief Splits the array into subarray with the remainder after even splits
-   *
-   * @param A The array to split
-   * @param indices The starting indices of each split
-   * @param num_threads The number of threads
-   * @return int** An array of pointers to the start of each subarray
-   * AI use: AI Assisted
-   */
-int **split_arrays_remainder(int *A, int *indices, int num_threads) {
-    int worker_threads = num_threads - 1;
+ * @brief Splits the array into subarray with the remainder after even splits
+ *
+ * @param A The array to split
+ * @param indices The starting indices of each split
+ * @param num_threads The number of threads
+ * @return int** An array of pointers to the start of each subarray
+ * AI use: AI Assisted
+ */
+int **split_arrays_remainder(int *A, int *indices, int num_threads)
+{
+  int worker_threads = num_threads - 1;
 
-    int **remainder_subarray = malloc(sizeof(int *));
-    if (!remainder_subarray) return NULL;
+  int **remainder_subarray = malloc(sizeof(int *));
+  if (!remainder_subarray)
+    return NULL;
 
-    remainder_subarray[0] = &A[indices[worker_threads - 1]];
-    return remainder_subarray;
+  remainder_subarray[0] = &A[indices[worker_threads - 1]];
+  return remainder_subarray;
 }
 
-//GCOVR_EXCL_START
+// GCOVR_EXCL_START
 
 /**
  * @brief Multi-threaded mergesort
@@ -611,42 +620,46 @@ int **split_arrays_remainder(int *A, int *indices, int num_threads) {
  * @param num_threads The number of threads to use
  * AI use: AI Assisted
  */
-void mergesort_mt(int *A, int n, int num_threads) {
-    if (num_threads < 2) {
-        mergesort_s(A, 0, n - 1);
-        return;
-    }
+void mergesort_mt(int *A, int n, int num_threads)
+{
+  if (num_threads < 2)
+  {
+    mergesort_s(A, 0, n - 1);
+    return;
+  }
 
-    int worker_threads = num_threads - 1;
-    parallel_args_t *par_args = malloc(sizeof(parallel_args_t) * (size_t)worker_threads);
+  int worker_threads = num_threads - 1;
+  parallel_args_t *par_args = malloc(sizeof(parallel_args_t) * (size_t)worker_threads);
 
-    int *sizes = split_sizes(n, num_threads);
-    int *indices = split_indices(sizes, num_threads);
-    int **subarrays = split_arrays_even(A, indices, num_threads);
+  int *sizes = split_sizes(n, num_threads);
+  int *indices = split_indices(sizes, num_threads);
+  int **subarrays = split_arrays_even(A, indices, num_threads);
 
-    // Launch worker threads
-    for (int i = 0; i < worker_threads; i++) {
-        par_args[i].A = subarrays[i];
-        par_args[i].start = 0;
-        par_args[i].end = sizes[i] - 1;
-        pthread_create(&par_args[i].tid, NULL, parallel_mergesort, &par_args[i]);
-    }
+  // Launch worker threads
+  for (int i = 0; i < worker_threads; i++)
+  {
+    par_args[i].A = subarrays[i];
+    par_args[i].start = 0;
+    par_args[i].end = sizes[i] - 1;
+    pthread_create(&par_args[i].tid, NULL, parallel_mergesort, &par_args[i]);
+  }
 
-    // Wait for all workers
-    for (int i = 0; i < worker_threads; i++) {
-        pthread_join(par_args[i].tid, NULL);
-    }
+  // Wait for all workers
+  for (int i = 0; i < worker_threads; i++)
+  {
+    pthread_join(par_args[i].tid, NULL);
+  }
 
-    // Merge all sorted segments in the main thread
-    merge_all_tree_parallel_locked(A, indices, sizes, num_threads);
+  // Merge all sorted segments in the main thread
+  merge_all_tree_parallel_locked(A, indices, sizes, num_threads);
 
-    free(sizes);
-    free(indices);
-    free(subarrays);
+  free(sizes);
+  free(indices);
+  free(subarrays);
 }
-//GCOVR_EXCL_STOP
+// GCOVR_EXCL_STOP
 
-//GCOVR_EXCL_START
+// GCOVR_EXCL_START
 
 /**
  * @brief Merges all sorted segments in a tree-like fashion using multiple threads with locking
@@ -657,73 +670,83 @@ void mergesort_mt(int *A, int n, int num_threads) {
  * @param num_threads The number of threads used for sorting
  * AI use: AI Assisted
  */
-void merge_all_tree_parallel_locked(int *A, int *indices, int *sizes, int num_threads) {
-    int worker_threads = num_threads - 1;
-    int level_size = worker_threads;
+void merge_all_tree_parallel_locked(int *A, int *indices, int *sizes, int num_threads)
+{
+  int worker_threads = num_threads - 1;
+  int level_size = worker_threads;
 
-    pthread_mutex_t merge_lock = PTHREAD_MUTEX_INITIALIZER;
+  pthread_mutex_t merge_lock = PTHREAD_MUTEX_INITIALIZER;
 
-    int *new_indices = malloc((size_t)level_size * sizeof(int));
-    int *new_sizes = malloc((size_t)level_size * sizeof(int));
+  int *new_indices = malloc((size_t)level_size * sizeof(int));
+  int *new_sizes = malloc((size_t)level_size * sizeof(int));
 
-    while (level_size > 1) {
-        int merge_pairs = level_size / 2;
+  while (level_size > 1)
+  {
+    int merge_pairs = level_size / 2;
 
-        pthread_t *threads = malloc(sizeof(pthread_t) * (size_t)merge_pairs);
-        merge_task_t *tasks = malloc(sizeof(merge_task_t) * (size_t)merge_pairs);
+    pthread_t *threads = malloc(sizeof(pthread_t) * (size_t)merge_pairs);
+    merge_task_t *tasks = malloc(sizeof(merge_task_t) * (size_t)merge_pairs);
 
-        int new_count = 0;
-        int t = 0;
+    int new_count = 0;
+    int t = 0;
 
-        for (int i = 0; i < level_size; i += 2) {
-            if (i + 1 < level_size) {
-                int start = indices[i];
-                int mid   = indices[i] + sizes[i] - 1;
-                int end   = indices[i + 1] + sizes[i + 1] - 1;
+    for (int i = 0; i < level_size; i += 2)
+    {
+      if (i + 1 < level_size)
+      {
+        int start = indices[i];
+        int mid = indices[i] + sizes[i] - 1;
+        int end = indices[i + 1] + sizes[i + 1] - 1;
 
-                tasks[t].A = A;
-                tasks[t].start = start;
-                tasks[t].mid = mid;
-                tasks[t].end = end;
-                tasks[t].merge_lock = &merge_lock;
+        tasks[t].A = A;
+        tasks[t].start = start;
+        tasks[t].mid = mid;
+        tasks[t].end = end;
+        tasks[t].merge_lock = &merge_lock;
 
-                pthread_create(&threads[t], NULL, merge_worker, &tasks[t]);
-                t++;
+        pthread_create(&threads[t], NULL, merge_worker, &tasks[t]);
+        t++;
 
-                new_indices[new_count] = start;
-                new_sizes[new_count] = sizes[i] + sizes[i + 1];
-                new_count++;
-            } else {
-                // Odd one out — carry forward
-                new_indices[new_count] = indices[i];
-                new_sizes[new_count] = sizes[i];
-                new_count++;
-            }
-        }
-
-        // Wait for all merges at this level
-        for (int j = 0; j < merge_pairs; j++) {
-            pthread_join(threads[j], NULL);
-        }
-
-        // Prepare next level
-        for (int j = 0; j < new_count; j++) {
-            indices[j] = new_indices[j];
-            sizes[j] = new_sizes[j];
-        }
-
-        free(threads);
-        free(tasks);
-        level_size = new_count;
+        new_indices[new_count] = start;
+        new_sizes[new_count] = sizes[i] + sizes[i + 1];
+        new_count++;
+      }
+      else
+      {
+        // Odd one out — carry forward
+        new_indices[new_count] = indices[i];
+        new_sizes[new_count] = sizes[i];
+        new_count++;
+      }
     }
 
-    free(new_indices);
-    free(new_sizes);
-    pthread_mutex_destroy(&merge_lock);
+    // Wait for all merges at this level
+    for (int j = 0; j < merge_pairs; j++)
+    {
+      pthread_join(threads[j], NULL);
+    }
+
+    // Prepare next level
+    for (int j = 0; j < new_count; j++)
+    {
+      indices[j] = new_indices[j];
+      sizes[j] = new_sizes[j];
+    }
+
+    free(threads);
+    free(tasks);
+    level_size = new_count;
+  }
+
+  free(new_indices);
+  free(new_sizes);
+  pthread_mutex_destroy(&merge_lock);
 }
 
-//GCOVR_EXCL_STOP
+// GCOVR_EXCL_STOP
 
+
+// GCOVR_EXCL_START
 /**
  * @brief The function that is called by each thread to sort their chunk
  *
@@ -731,11 +754,14 @@ void merge_all_tree_parallel_locked(int *A, int *indices, int *sizes, int num_th
  * @return void* always NULL
  * AI use: AI Assisted
  */
-void *parallel_mergesort(void *args) {
-    parallel_args_t *parg = (parallel_args_t *)args;
-    mergesort_s(parg->A, parg->start, parg->end);
-    return NULL;
+void *parallel_mergesort(void *args)
+{
+  parallel_args_t *parg = (parallel_args_t *)args;
+  mergesort_s(parg->A, parg->start, parg->end);
+  return NULL;
 }
+
+// GCOVR_EXCL_STOP
 
 double getMilliSeconds()
 {
@@ -957,6 +983,7 @@ int main(int argc, char **argv) {
             par_args[i].A = A;
             par_args[i].start = indices[i];
             par_args[i].end   = indices[i] + sizes[i] - 1;
+//GCOVR_EXCL_START
             pthread_create(&par_args[i].tid, NULL, thread_sort, &par_args[i]);
         }
 
@@ -966,6 +993,7 @@ int main(int argc, char **argv) {
 
         merge_all_tree_parallel_locked(A, indices, sizes, num_threads);
     }
+//GCOVR_EXCL_STOP
 
     double end = getMilliSeconds();
 
@@ -1204,14 +1232,14 @@ else
 fi
 ```
 
-Report generated on 10/24/2025 at 21:42:08
+Report generated on 10/24/2025 at 21:50:28
 
 
 ---
 
 ## End of Report
 
-SHA-256 Hash of the report: 91229cf2a81182fd0595d9ea98b85f2648445b59814bc81c60d22b8e4796d044
+SHA-256 Hash of the report: 0166814cb8b3d2404e352552cebef948b5a2308345b98d55731eae0f9075751d
 
 Do not edit the generated report. Any changes will be reported as academic dishonesty
 
