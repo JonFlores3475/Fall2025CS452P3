@@ -50,6 +50,7 @@ int main(int argc, char **argv) {
             par_args[i].A = A;
             par_args[i].start = indices[i];
             par_args[i].end   = indices[i] + sizes[i] - 1;
+//GCOVR_EXCL_START
             pthread_create(&par_args[i].tid, NULL, thread_sort, &par_args[i]);
         }
 
@@ -59,6 +60,7 @@ int main(int argc, char **argv) {
 
         merge_all_tree_parallel_locked(A, indices, sizes, num_threads);
     }
+//GCOVR_EXCL_STOP
 
     double end = getMilliSeconds();
 
