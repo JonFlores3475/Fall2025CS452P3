@@ -1,6 +1,6 @@
 # Submission Report
 
-- Submission generated at 10/24/2025 at 22:21:32
+- Submission generated at 10/24/2025 at 22:28:08
 
 - Machine info: Linux runnervmwhb2z 6.11.0-1018-azure #18~24.04.1-Ubuntu SMP Sat Jun 28 04:46:03 UTC 2025 x86_64 x86_64 x86_64 GNU/Linux
 
@@ -114,6 +114,8 @@ mkdir -p ./build/report/txt
 gcovr -r .   --gcov-ignore-parse-errors=negative_hits.warn   --html --html-details   --exclude-directories build/tests/harness   --exclude '.*main\.c$'   --exclude '.*test\.c$'   -o ./build/report/html/coverage_report.html 2>&1
 ```
 
+**Open the detailed HTML coverage report [here](./build/report/html/coverage_report.html)**
+
 ---
 
 ## Address Sanitizer Report
@@ -125,30 +127,30 @@ tests/lab-test.c:161:test_mergesort_s:PASS
 tests/lab-test.c:162:test_split_sizes_indices:PASS
 tests/lab-test.c:163:test_parallel_sort:PASS
 tests/lab-test.c:164:test_edge_cases:PASS
-Stress test: array_size=10000 threads=1 time=6.752197
-Stress test: array_size=10000 threads=2 time=3.784180
-Stress test: array_size=10000 threads=3 time=2.174072
-Stress test: array_size=10000 threads=4 time=2.855957
-Stress test: array_size=10000 threads=5 time=2.448975
-Stress test: array_size=10000 threads=6 time=3.406006
-Stress test: array_size=10000 threads=7 time=3.619873
-Stress test: array_size=10000 threads=8 time=3.950928
-Stress test: array_size=50000 threads=1 time=22.286865
-Stress test: array_size=50000 threads=2 time=21.600098
-Stress test: array_size=50000 threads=3 time=10.127930
-Stress test: array_size=50000 threads=4 time=9.300049
-Stress test: array_size=50000 threads=5 time=9.194092
-Stress test: array_size=50000 threads=6 time=9.307129
-Stress test: array_size=50000 threads=7 time=9.640869
-Stress test: array_size=50000 threads=8 time=10.314941
-Stress test: array_size=100000 threads=1 time=40.461914
-Stress test: array_size=100000 threads=2 time=40.768066
-Stress test: array_size=100000 threads=3 time=20.662842
-Stress test: array_size=100000 threads=4 time=18.666992
-Stress test: array_size=100000 threads=5 time=17.883057
-Stress test: array_size=100000 threads=6 time=16.906006
-Stress test: array_size=100000 threads=7 time=18.167969
-Stress test: array_size=100000 threads=8 time=19.106934
+Stress test: array_size=10000 threads=1 time=6.624023
+Stress test: array_size=10000 threads=2 time=3.427002
+Stress test: array_size=10000 threads=3 time=1.999023
+Stress test: array_size=10000 threads=4 time=2.793213
+Stress test: array_size=10000 threads=5 time=2.417969
+Stress test: array_size=10000 threads=6 time=3.194092
+Stress test: array_size=10000 threads=7 time=3.275146
+Stress test: array_size=10000 threads=8 time=3.971924
+Stress test: array_size=50000 threads=1 time=22.322021
+Stress test: array_size=50000 threads=2 time=21.975098
+Stress test: array_size=50000 threads=3 time=10.303955
+Stress test: array_size=50000 threads=4 time=9.381836
+Stress test: array_size=50000 threads=5 time=9.118896
+Stress test: array_size=50000 threads=6 time=9.532959
+Stress test: array_size=50000 threads=7 time=9.382080
+Stress test: array_size=50000 threads=8 time=10.411133
+Stress test: array_size=100000 threads=1 time=42.851074
+Stress test: array_size=100000 threads=2 time=42.020020
+Stress test: array_size=100000 threads=3 time=20.379883
+Stress test: array_size=100000 threads=4 time=18.639893
+Stress test: array_size=100000 threads=5 time=17.783936
+Stress test: array_size=100000 threads=6 time=16.327881
+Stress test: array_size=100000 threads=7 time=19.855957
+Stress test: array_size=100000 threads=8 time=19.503906
 tests/lab-test.c:165:test_stress_sort:PASS
 
 -----------------------
@@ -1033,14 +1035,14 @@ else
 fi
 ```
 
-Report generated on 10/24/2025 at 22:21:34
+Report generated on 10/24/2025 at 22:28:09
 
 
 ---
 
 ## End of Report
 
-SHA-256 Hash of the report: 0058c04f95d33743f90cb1af61fe6dbd1bba4574adfbf31118d4154790b49da5
+SHA-256 Hash of the report: a094fdadee46e52890de59285097511e523812d0acead1a645937535678087e1
 
 Do not edit the generated report. Any changes will be reported as academic dishonesty
 
