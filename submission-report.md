@@ -1,6 +1,6 @@
 # Submission Report
 
-- Submission generated at 10/26/2025 at 18:53:55
+- Submission generated at 10/26/2025 at 19:20:46
 
 - Machine info: Linux runnervmwhb2z 6.11.0-1018-azure #18~24.04.1-Ubuntu SMP Sat Jun 28 04:46:03 UTC 2025 x86_64 x86_64 x86_64 GNU/Linux
 
@@ -25,7 +25,7 @@ Post any questions on the class discussion board for help.
 
 ## Known Bugs or Issues
 
-None that I am aware of
+Coverage is a bit lower than I would like, and there a lot of the ignore command calls on all the multithreaded things. There are also just some scenarios that I included that do not seem to get tested, but that I think would be necessary for a complete product.
 
 ## Experience
 
@@ -34,23 +34,22 @@ As I progress through this course, I am slowly but surely becoming more comforta
 ## Analysis
 
 - Were you able to generate soething close to what the example showed?
-    - Yes, but on onyx, I had to greatly increase the size of the arrays to be sorted to generate something close to the example plot. The best results I saw were for 10000000 element arrays, but after some discussion with Dr. Panter, he confirmed that this was acceptable.
+    - Yes, but on onyx, I had to greatly increase the size of the arrays to be sorted to generate something close to the example plot. The best results I saw were for 10000000 element arrays, but after some discussion with Dr. Panter, he confirmed that this was acceptable. There was also some jaggedness due to the nature of using onyx rather than running on a local machine.
 
 - Did you see a slowdown at some point? Why or why not?
-    - Oddly enough, I did see some slow down on 2 threads, most likely due to some overhead introduced in my methodology, but everything after that followed a pretty smooth pattern of decreased run time, with a very slight upwards trend as the number of threads approached the number of cores available. I have adjusted the generateplot.sh script to go up to my max thread count to further demonstrate this trend on onxy.
+    - Everything followed a pretty smooth pattern of decreased run time, with a very slight upwards trend as the number of threads approached the number of cores available. I have adjusted the generateplot.sh script to go up to my max thread count to further demonstrate this trend on onxy as more cores are available at some times.
 
 - Did your program run faster and faster when you added more threads? Why or Why not?
     - My program did run faster and faster for a good while when adding more threads, but eventually it stabilized, then, as the number of threads approached the number of cores, there was a slight upward trend appearing again.
 
 - What was the optimum number of threads for your machine?
-    - On Onyx, it seems like the optimal number of threads was 45.
+    - On Onyx, it seems like the optimal number of threads was 14.
 
 - What was the slowest number of threads for your machine?
-    - On Onyx, the slowest number of threads still seemed to be 2. This is most likely due to some overhead my method introduced.
-
-Here is an example of how to include a plot in your README:
+    - On Onyx, the slowest number of threads seemed to be 1.
 
 ![Onyx Plot: 64 thread max, 10000000 element arrays](scripts/64_10000000.png)
+
 ---
 
 
@@ -1015,14 +1014,14 @@ else
 fi
 ```
 
-Report generated on 10/26/2025 at 18:53:56
+Report generated on 10/26/2025 at 19:20:47
 
 
 ---
 
 ## End of Report
 
-SHA-256 Hash of the report: 7e3fce41e1a256fc6023a8c2d04a927fb92f12807ec94abf7e5eed1da7411a9e
+SHA-256 Hash of the report: f6138bc4cb2d68e062c75bc27dae31d481e5529d981e8cbb08efee762778b061
 
 Do not edit the generated report. Any changes will be reported as academic dishonesty
 
