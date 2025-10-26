@@ -24,7 +24,7 @@ As I progress through this course, I am slowly but surely becoming more comforta
     - My program did run faster and faster for a good while when adding more threads, but eventually it stabilized, then, as the number of threads approached the number of cores, there was a slight upward trend appearing again.
 
 - What was the optimum number of threads for your machine?
-    - On Onyx, it seems like the optimal number of threads was 45.
+    - On Onyx, it seems like the optimal number of threads was 14.
 
 - What was the slowest number of threads for your machine?
     - On Onyx, the slowest number of threads still seemed to be 2. This is most likely due to some overhead my method introduced.
