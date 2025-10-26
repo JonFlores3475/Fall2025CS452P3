@@ -102,16 +102,6 @@ typedef struct parallel_args {
    */
   int **split_arrays_even(int *A, int *indices, int num_threads);
 
-  /**
-   * @brief Splits the array into subarray with the remainder after even splits
-   *
-   * @param A The array to split
-   * @param indices The starting indices of each split
-   * @param num_threads The number of threads
-   * @return int** An array of pointers to the start of each subarray
-   * AI use: AI Assisted
-   */
-  int **split_arrays_remainder(int *A, int *indices, int num_threads);
 
   /**
    * @brief Merges all sorted segments in a tree-like fashion
@@ -133,15 +123,6 @@ typedef struct parallel_args {
    * AI use: AI Assisted
    */
   void *thread_sort(void *arg);
-
-  /**
-   * @brief Entry point for the main function
-   *
-   * @param argc The argument count
-   * @param argv The argument array
-   * @return The exit code
-   */
-  int myMain(int argc, char **argv);
 
 #ifdef __cplusplus
 } // extern "C"

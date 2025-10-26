@@ -232,29 +232,6 @@ int **split_arrays_even(int *A, int *indices, int num_threads)
   return subarrays;
 }
 
-/**
- * @brief Splits the array into subarray with the remainder after even splits
- *
- * @param A The array to split
- * @param indices The starting indices of each split
- * @param num_threads The number of threads
- * @return int** An array of pointers to the start of each subarray
- * AI use: AI Assisted
- */
-int **split_arrays_remainder(int *A, int *indices, int num_threads)
-{
-  int worker_threads = num_threads - 1;
-
-  int **remainder_subarray = malloc(sizeof(int *));
-  if (!remainder_subarray)
-    return NULL;
-
-  remainder_subarray[0] = &A[indices[worker_threads - 1]];
-  return remainder_subarray;
-}
-
-
-
 
 //GCOVR_EXCL_START
 /**
