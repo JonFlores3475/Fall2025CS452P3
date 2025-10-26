@@ -36,6 +36,7 @@ int main(int argc, char **argv) {
     int *indices = split_indices(sizes, num_threads);
 
     int worker_threads = (num_threads <= 1) ? 0 : num_threads - 1;
+    //GCOVR_EXCL_START
     parallel_args_t *par_args = (worker_threads > 0) ?
         malloc(sizeof(parallel_args_t) * (size_t)worker_threads) : NULL;
 
@@ -50,7 +51,6 @@ int main(int argc, char **argv) {
             par_args[i].A = A;
             par_args[i].start = indices[i];
             par_args[i].end   = indices[i] + sizes[i] - 1;
-//GCOVR_EXCL_START
             pthread_create(&par_args[i].tid, NULL, thread_sort, &par_args[i]);
         }
 

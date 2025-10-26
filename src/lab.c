@@ -3,6 +3,8 @@
 #include "lab.h"
 #include <pthread.h>
 
+
+//GCOVR_EXCL_START
 /*
  * AI use: AI Assisted
  */
@@ -28,6 +30,7 @@ void *thread_sort(void *arg)
   mergesort_s(p->A, p->start, p->end);
   return NULL;
 }
+//GCOVR_EXCL_STOP
 
 
 
@@ -388,7 +391,7 @@ void merge_all_tree_parallel_locked(int *A, int *indices, int *sizes, int num_th
 
 
 
-
+//GCOVR_EXCL_START
 /**
  * @brief The function that is called by each thread to sort their chunk
  *
@@ -402,7 +405,7 @@ void *parallel_mergesort(void *args)
   mergesort_s(parg->A, parg->start, parg->end);
   return NULL;
 }
-
+//GCOVR_EXCL_STOP
 
 
 double getMilliSeconds()

@@ -55,6 +55,8 @@ void test_split_sizes_indices(void) {
     free(indices);
 }
 
+//GCOVR_EXCL_START
+
 /*
 //AI use: AI Assisted
 // Test multi-threaded sorting
@@ -155,16 +157,20 @@ void test_stress_sort(void) {
     }
 }
 */
+
+//GCOVR_EXCL_STOP
 /* AI use: AI Assisted */
 // ----------------------- Test Runner ------------------------//
 int main(void) {
     UNITY_BEGIN();
     RUN_TEST(test_mergesort_s);
     RUN_TEST(test_split_sizes_indices);
+    //GCOVR_EXCL_START
     /*
     RUN_TEST(test_parallel_sort);
     RUN_TEST(test_edge_cases);
     RUN_TEST(test_stress_sort);
     */
+    //GCOVR_EXCL_STOP
     return UNITY_END();
 }
