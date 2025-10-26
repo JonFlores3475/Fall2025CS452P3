@@ -1,6 +1,6 @@
 # Submission Report
 
-- Submission generated at 10/26/2025 at 18:34:37
+- Submission generated at 10/26/2025 at 18:42:41
 
 - Machine info: Linux runnervmwhb2z 6.11.0-1018-azure #18~24.04.1-Ubuntu SMP Sat Jun 28 04:46:03 UTC 2025 x86_64 x86_64 x86_64 GNU/Linux
 
@@ -783,9 +783,10 @@ int main(int argc, char **argv) {
     int *indices = split_indices(sizes, num_threads);
 
     int worker_threads = (num_threads <= 1) ? 0 : num_threads - 1;
-    //GCOVR_EXCL_START
+//GCOVR_EXCL_START
     parallel_args_t *par_args = (worker_threads > 0) ?
         malloc(sizeof(parallel_args_t) * (size_t)worker_threads) : NULL;
+//GCOVR_EXCL_STOP
 
     double start = getMilliSeconds();
 
@@ -798,6 +799,7 @@ int main(int argc, char **argv) {
             par_args[i].A = A;
             par_args[i].start = indices[i];
             par_args[i].end   = indices[i] + sizes[i] - 1;
+//GCOVR_EXCL_START
             pthread_create(&par_args[i].tid, NULL, thread_sort, &par_args[i]);
         }
 
@@ -1055,14 +1057,14 @@ else
 fi
 ```
 
-Report generated on 10/26/2025 at 18:34:38
+Report generated on 10/26/2025 at 18:42:42
 
 
 ---
 
 ## End of Report
 
-SHA-256 Hash of the report: eb9e2db64e56b6c4b7f11e8fb368297c0f23b2fe76330e71bb1b27dcfdb61ab9
+SHA-256 Hash of the report: 2846ad5395554e408b281d0204aeed8414880ed9b30fbbee60ff447510abe071
 
 Do not edit the generated report. Any changes will be reported as academic dishonesty
 
