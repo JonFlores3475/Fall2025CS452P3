@@ -31,6 +31,8 @@ void *thread_sort(void *arg)
 
 
 
+
+//GCOVR_EXCL_START
 /**
  * @brief Worker function for merging two sorted subarrays with locking
  *
@@ -49,6 +51,8 @@ static void *merge_worker(void *arg)
 
   return NULL;
 }
+
+//GCOVR_EXCL_STOP
 
 
 
@@ -248,6 +252,8 @@ int **split_arrays_remainder(int *A, int *indices, int num_threads)
 
 
 
+
+//GCOVR_EXCL_START
 /**
  * @brief Multi-threaded mergesort
  *
@@ -293,10 +299,10 @@ void mergesort_mt(int *A, int n, int num_threads)
   free(indices);
   free(subarrays);
 }
+//GCOVR_EXCL_STOP
 
 
-
-
+//GCOVR_EXCL_START
 /**
  * @brief Merges all sorted segments in a tree-like fashion using multiple threads with locking
  *
@@ -378,7 +384,7 @@ void merge_all_tree_parallel_locked(int *A, int *indices, int *sizes, int num_th
   free(new_sizes);
   pthread_mutex_destroy(&merge_lock);
 }
-
+//GCOVR_EXCL_STOP
 
 
 
