@@ -15,7 +15,7 @@ As I progress through this course, I am slowly but surely becoming more comforta
 ## Analysis
 
 - Were you able to generate soething close to what the example showed?
-    - Yes, but on onyx, I had to greatly increase the size of the arrays to be sorted to generate something close to the example plot. The best results I saw were for 10000000 element arrays, but after some discussion with Dr. Panter, he confirmed that this was acceptable.
+    - Yes, but on onyx, I had to greatly increase the size of the arrays to be sorted to generate something close to the example plot. The best results I saw were for 10000000 element arrays, but after some discussion with Dr. Panter, he confirmed that this was acceptable. There was also some jaggedness due to the nature of using onyx rather than running on a local machine.
 
 - Did you see a slowdown at some point? Why or why not?
     - Oddly enough, I did see some slow down on 2 threads, most likely due to some overhead introduced in my methodology, but everything after that followed a pretty smooth pattern of decreased run time, with a very slight upwards trend as the number of threads approached the number of cores available. I have adjusted the generateplot.sh script to go up to my max thread count to further demonstrate this trend on onxy.
