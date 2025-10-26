@@ -6,7 +6,7 @@
 
 ## Known Bugs or Issues
 
-None that I am aware of
+Coverage is a bit lower than I would like, and there a lot of the ignore command calls on all the multithreaded things. There are also just some scenarios that I included that do not seem to get tested, but that I think would be necessary for a complete product.
 
 ## Experience
 
@@ -28,7 +28,5 @@ As I progress through this course, I am slowly but surely becoming more comforta
 
 - What was the slowest number of threads for your machine?
     - On Onyx, the slowest number of threads still seemed to be 2. This is most likely due to some overhead my method introduced.
-
-Here is an example of how to include a plot in your README:
 
 ![Onyx Plot: 64 thread max, 10000000 element arrays](scripts/64_10000000.png)
